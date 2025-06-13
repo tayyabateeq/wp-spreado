@@ -1,0 +1,124 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.toplevel_page_spreado #wpcontent,
+.spreado_page_spreado_api_urls #wpcontent{
+    padding: 0;
+}
+.toplevel_page_spreado #wpwrap,
+.spreado_page_spreado_api_urls #wpwrap{
+    background-color: #FCFAFA;
+}
+.wrap{
+    margin: 0;
+}
+.wp-heading-inline{
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 1px solid #EDF2F7;
+}
+.wrap form{
+    max-width: 1600px;
+    margin: 25px auto 0;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+.wrap form .registration-header{
+    padding: 18px 24px;
+    border-bottom: 1px solid #EDF2F7;
+}
+.wrap form .registration-header h1{
+    color: #27272E;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.wrap form .submit{
+   text-align: center;
+   padding-bottom: 50px ;
+}
+.wrap form .submit input[type="submit"]{
+    background-color: #FA1C3C;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    padding: 16px 40px;
+}
+.wrap .go-to-dashboard{
+    background-color: #FA1C3C;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    padding: 16px 40px;
+}
+.wrap form #submit{
+    background-color: #FA1C3C;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    padding: 16px 40px;
+}
+.wrap form #change-keys{
+    background-color: #FA1C3C;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    padding: 16px 40px;
+    margin-bottom: 30px;
+}
+.wrap form .registration-form{
+    padding: 24px;
+    gap: 30px;
+}
+.wrap form .registration-form .form-group{
+    padding: 50px;
+    border: 1px solid #EDF2F7;
+    border-radius: 16px;
+    width: 50%;
+}
+.wrap form .registration-form .form-group input{
+    border: none !important;
+    box-shadow: 0 0 1px 0 #32324733, 0 1px 2px 0 #32324714;
+    height: 46px;
+    outline: none !important;
+    padding-right: 30px;
+}
+.wrap form .registration-form .form-group label{
+    color: #425466;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    margin-bottom: 8px;
+}
+#spreado-toggle-private-key{
+    cursor: pointer;
+    background: #FCFAFA;
+    border: none !important;
+    /* box-shadow: 0 0 1px 0 #32324733, 0 1px 2px 0 #32324714; */
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    height: 46px;
+    outline: none !important;
+}
+.wrap form .registration-form .form-group input:read-only{
+    background-color: #FCFAFA !important;
+}

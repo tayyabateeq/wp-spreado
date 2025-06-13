@@ -1,0 +1,50 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /* Style for form container */
+ .signup-form-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for form labels */
+.signup-form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for form inputs */
+.signup-form-container input[type="text"],
+.signup-form-container input[type="email"],
+.signup-form-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style for form submit button */
+.signup-form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0073aa;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style for error or success messages */
+.signup-form-container .csf-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
